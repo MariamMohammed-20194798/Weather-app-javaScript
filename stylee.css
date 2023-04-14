@@ -1,0 +1,118 @@
+body {
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-image: url("imgs/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 35px;
+  top: 50%;
+  left: 43.5%;
+  position: absolute;
+  margin-top: -280px;
+  margin-left: -450px;
+  color: white;
+}
+.search input {
+  width: 330px;
+  height: 47px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  top: 50%;
+  left: 74%;
+  position: absolute;
+  margin-top: -280px;
+  margin-left: -450px;
+}
+
+.search button {
+  background: none;
+  color: black;
+  border: 70px;
+  font-size: 40px;
+  border: none;
+  top: 50.5%;
+  left: 85%;
+  position: absolute;
+  margin-top: -280px;
+  margin-left: -450px;
+}
+#bigSquare {
+  width: 920px;
+  height: 450px;
+  background-color: white;
+  border-radius: 30px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -450px;
+}
+#in1 {
+  width: 380px;
+  height: 310px;
+  background-color: grey;
+  border-radius: 30px;
+  top: 58%;
+  left: 51.5%;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -450px;
+}
+#in2 {
+  width: 290px;
+  height: 268px;
+  background-color: rosybrown;
+  border-radius: 20px;
+  top: 59.5%;
+  left: 64.3%;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -450px;
+}
+#in3 {
+  width: 150px;
+  height: 310px;
+  background-image: url("imgs/galaxy.jpg");
+  background-size: cover;
+  border-radius: 30px;
+  border: none;
+  top: 58%;
+  left: 74%;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -450px;
+}
+#btn-yesterday {
+  width: 180px;
+  height: 450px;
+  background-image: url("imgs/dark.jpg");
+  background-size: cover;
+  border-radius: 25px;
+  border: none;
+  top: 50%;
+  left: 43.5%;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -450px;
+}
+#btn-tomorrow {
+  width: 180px;
+  height: 450px;
+  background-image: url("imgs/sunrise.jpg");
+  background-size: cover;
+  border-radius: 25px;
+  border: none;
+  top: 50%;
+  left: 80.5%;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -450px;
+}
